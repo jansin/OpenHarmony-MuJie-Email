@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/MainLayout",
+    "pages/AccountList",
+    "pages/AccountConfig",
+    "pages/FolderList",
+    "pages/EmailList",
+    "pages/EmailDetail",
+    "pages/ComposeEmail",
+    "pages/Settings",
+    "pages/FilterRules",
+    "pages/WebAuthHelp"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\86185\\.ohos\\config\\default_MuJieEmail_6vQUypZ2VblCPlPo5PbF8XwjPtPWkD-ykw-DLR0CHvU=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A7A6A1B079355D5E599613B9B5988AA89867F9337EB71E52CFCCBE9F052DFF50EA8FD79E86AAC",
+          "profile": "C:\\Users\\86185\\.ohos\\config\\default_MuJieEmail_6vQUypZ2VblCPlPo5PbF8XwjPtPWkD-ykw-DLR0CHvU=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\86185\\.ohos\\config\\default_MuJieEmail_6vQUypZ2VblCPlPo5PbF8XwjPtPWkD-ykw-DLR0CHvU=.p12",
+          "storePassword": "0000001AF4E15AB954389A3FAB9C1AA17F9270482888B02FB6F0A294AAF9AD973E0673AF6140F4C652E6"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lib",
+      "srcPath": "./mail_base/lib",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

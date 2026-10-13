@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "coremail",
+  "name": "@coremail/mail_base",
+  "repository": "https://gitee.com/openharmony-sig/mail_base",
+  "description": "e-mail protocols SDK, supports SMTP, IMAP, POP3. Easy to use and powerful",
+  "main": "Index.ts",
+  "version": "1.0.0-Canary6",
+  "dynamicDependencies": {},
+  "dependencies": {}
+}
